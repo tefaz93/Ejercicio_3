@@ -241,6 +241,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 689125018}
   - 95: {fileID: 689125019}
+  - 114: {fileID: 689125020}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -261,6 +262,7 @@ Transform:
   - {fileID: 844450371}
   - {fileID: 1803465203}
   - {fileID: 2052132990}
+  - {fileID: 849574054}
   m_Father: {fileID: 0}
   m_RootOrder: 3
 --- !u!95 &689125019
@@ -280,6 +282,17 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &689125020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 689125017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9fb298a3a1c9db479e4386da520452d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &844450370
 GameObject:
   m_ObjectHideFlags: 0
@@ -380,8 +393,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1192160868}
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_Father: {fileID: 689125018}
+  m_RootOrder: 3
 --- !u!95 &849574055
 Animator:
   serializedVersion: 3
