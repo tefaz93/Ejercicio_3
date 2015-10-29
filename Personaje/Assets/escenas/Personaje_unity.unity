@@ -240,6 +240,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 689125018}
+  - 95: {fileID: 689125019}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -260,8 +261,26 @@ Transform:
   - {fileID: 844450371}
   - {fileID: 1803465203}
   - {fileID: 2052132990}
+  - {fileID: 1530083611}
   m_Father: {fileID: 0}
   m_RootOrder: 3
+--- !u!95 &689125019
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 689125017}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 34ee216d3987b45478f0fb9bc650d1c1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &844450370
 GameObject:
   m_ObjectHideFlags: 0
@@ -274,7 +293,7 @@ GameObject:
   - 135: {fileID: 844450373}
   - 23: {fileID: 844450372}
   m_Layer: 0
-  m_Name: Sphere (1)
+  m_Name: cabeza
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -430,13 +449,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1530083610}
-  m_LocalRotation: {x: 0, y: 0, z: .214908913, w: .976634145}
-  m_LocalPosition: {x: 1.44000006, y: 1.47000003, z: .289999992}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.53999996, y: 1.39999998, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1192160868}
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_Father: {fileID: 689125018}
+  m_RootOrder: 3
 --- !u!95 &1530083612
 Animator:
   serializedVersion: 3
@@ -444,7 +463,7 @@ Animator:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1530083610}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 4f1acd62c928f4548a4a0b989301f908, type: 2}
   m_CullingMode: 0
@@ -466,7 +485,7 @@ GameObject:
   - 65: {fileID: 1803465205}
   - 23: {fileID: 1803465204}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: Brazo_Der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -600,7 +619,7 @@ GameObject:
   - 23: {fileID: 2052132987}
   - 95: {fileID: 2052132986}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: cuerpo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
